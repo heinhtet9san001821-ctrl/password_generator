@@ -29,21 +29,22 @@ u_let_list=[]
 num_list=[]
 special_list=[]
 
+#use random.choice() method instead of randint()
 for i in range(0,l_let):
-    r_num=random.randint(0,25)
-    l_let_list.append(lowercase_letters[r_num])
+    r_num=random.choice(lowercase_letters)
+    l_let_list.append(r_num)
 
 for j in range(0,u_let):
-    r_num=random.randint(0,25)
-    u_let_list.append(uppercase_letters[r_num])
+    r_num=random.choice(uppercase_letters)
+    u_let_list.append(r_num)
 
 for j in range(0,num):
-    r_num=random.randint(0,9)
-    num_list.append(numbers[r_num])
+    r_num=random.choice(numbers)
+    num_list.append(r_num)
     
 for j in range(0,spec_char):
-    r_num=random.randint(0,27)
-    special_list.append(special_characters[r_num])
+    r_num=random.choice(special_characters)
+    special_list.append(r_num)
     
 l_let_list.extend(u_let_list)
 num_list.extend(special_list)
