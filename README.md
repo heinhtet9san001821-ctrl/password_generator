@@ -8,7 +8,7 @@ A professional, customizable command-line interface (CLI) utility built in Pytho
 
 - **Granular Customization:** Allows users to input the exact volume of lowercase letters, uppercase letters, numeric digits, and special characters required.
 - **Enhanced Security:** Implements Python's built-in `random` module leveraging cryptographic shuffling logic to neutralize predictable patterns.
-- **Robust Input Validation:** Engineered with structured error-handling (`try/except` logic) to gracefully capture data-type mismatches without application failure.
+failure.
 - **Clean Algorithm Design:** Optimized collection loops utilizing internal character mapping, eliminating manual indexing overhead.
 
 ---
@@ -46,7 +46,8 @@ Ensure you have **Python 3.x** installed on your local operating system.
 This application acts as a foundational benchmark for testing algorithm sequence randomization. It gathers chosen characters into an isolated dynamic structural list array, invokes an in-place operational data shuffle via `random.shuffle()`, and aggregates the final nodes using a clean linear-time string connection workflow (`"".join()`).
 
 ---
-
+## Weakness of my program
+* **We don't add the features not to add the negative numbers.
 ## 💼 Portfolio Integration
 
 This project serves as a baseline component of my **Computer Science portfolio**, showcasing core language mastery, logical routing syntax, array operations, and algorithmic restructuring in Python.
